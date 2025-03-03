@@ -1,0 +1,25 @@
+.options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button,
+.resetButton {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1em;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.resetButton {
+  background-color: #f44336;
+  color: white;
+}
