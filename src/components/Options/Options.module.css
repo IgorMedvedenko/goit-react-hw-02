@@ -4,7 +4,9 @@
   margin-bottom: 20px;
 }
 
-.button,
+.buttonG,
+.buttonN,
+.buttonB,
 .resetButton {
   padding: 10px 20px;
   margin: 0 10px;
@@ -14,12 +16,20 @@
   border-radius: 5px;
 }
 
-.button {
+.buttonG {
   background-color: #4caf50;
-  color: white;
+  color: rgb(11, 78, 40);
+}
+.buttonN {
+  background-color: yellow;
+  color: rgb(144, 136, 21);
+}
+.buttonB {
+  background-color: red;
+  color: rgb(155, 23, 23);
 }
 
 .resetButton {
-  background-color: #f44336;
-  color: white;
+  background-color: blue;
+  color: rgb(30, 15, 125);
 }

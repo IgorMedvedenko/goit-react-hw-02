@@ -8,16 +8,16 @@ export default function Options({
 }) {
   return (
     <div className={styles.options}>
-      <button className={styles.button} onClick={() => updateFeedback("good")}>
+      <button className={styles.buttonG} onClick={() => updateFeedback("good")}>
         Good
       </button>
       <button
-        className={styles.button}
+        className={styles.buttonN}
         onClick={() => updateFeedback("neutral")}
       >
         Neutral
       </button>
-      <button className={styles.button} onClick={() => updateFeedback("bad")}>
+      <button className={styles.buttonB} onClick={() => updateFeedback("bad")}>
         Bad
       </button>
       {totalFeedback > 0 && (
